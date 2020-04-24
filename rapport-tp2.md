@@ -266,15 +266,14 @@ $ sudo -u postgres psql
 ```
 postgres=# \l
 ```
-[put image here of database]
+![Liste BD](databaselist.png) 
 
 - Voir la liste des utilisateurs postgreSQL :
 
 ```
 postgres=# \du
 ```
-[insert image of list of users here]
-
+![Liste utilisateurs](userlist.png) 
 - Se connecter à la base de données odoo :
 
 ```
@@ -286,7 +285,7 @@ postgres=# \c odoo
 ```
 postgres=# \dt
 ```
-[insert image here of liste of tables]
+![Liste BD](tablelists.png) 
 
 - Pour quitter postgreSQL, tapez la commande suivante :
 
