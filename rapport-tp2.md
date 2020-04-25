@@ -154,6 +154,8 @@ $ sudo -u postgres psql --command="ALTER USER odoo WITH PASSWORD 'passodoo'"
 
 ```
 $ sudo apt list --installed > paquetsPostgreSql.txt
+$ tail -n +2 paquetsPostgreSql.txt | wc -l
+269
 ```
 
 ### [](#34-probl%C3%A8mes-rencontr%C3%A9s)3.4 Problèmes rencontrés
@@ -209,6 +211,8 @@ $ sudo cp -r /inf1070/odoo /opt/
 
 ```
 $ apt list --installed > paquetsPrerequis.txt
+$ tail -n +2 paquetsPrerequis.txt | wc -l
+680
 ```
 
 Voir le fichier [paquetsPrerequis.txt](/inf1070/20201-tp2/-/blob/master/paquetsPrerequis.txt).
