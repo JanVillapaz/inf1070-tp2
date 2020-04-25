@@ -221,7 +221,7 @@ $ sudo chmod  -R  755 /var/odoo
 - Extrait de la section du fichier `odoo.conf` modifiée :
 
 ```
-   **ddons_path**: addons
+   **addons_path**: addons
    **data_dir**: /var/odoo
    **database**: odoo
    **db_user**: odoo
