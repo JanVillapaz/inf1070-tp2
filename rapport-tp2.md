@@ -25,10 +25,10 @@
 ```
 $ lsb_release  -a
 No LSB modules are available.
-Distributor ID: Ubuntu
+Distributor ID:	Ubuntu
 Description:	Ubuntu 18.04.4 LTS
-Release:		18.04
-Codename:		bionic
+Release:	18.04
+Codename:	bionic
 ```
 
 - La commande précédente nous fournit plus précisément les informations suivantes :
