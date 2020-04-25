@@ -236,6 +236,9 @@ $ sudo chmod  -R  755 /var/odoo
 ```
 
 -   Copiez le fichier `odoo.conf` das le dossier d'installation de odoo.
+```
+sudo cp -r /inf1070/odoo.conf /opt/odoo/
+```
 -   Installez la base de données de odoo en tapant la commande suivante dans le dossier d'instalation de odoo
 
 ```
@@ -248,7 +251,15 @@ $ sudo python3 odoo-bin --addons-path=addons --data-dir=/var/odoo -d odoo -r odo
 $ sudo python3 odoo-bin --addons-path=addons --data-dir=/var/odoo -d odoo -r odoo -w passodoo \
  --db_host localhost
 ```
- 
+- Creation du script startodoo.sh
+- Pour creer le fichier script, il faut avoir la permission de repertoire
+
+```
+$ chmod 755 /opt/odoo
+$ vim startodoo.sh
+$ chmod 755 startodoo.sh 
+```
+
 #### [](#421-script-shell-de-d%C3%A9marrage-de-odoo)4.2.1 Script shell de démarrage de Odoo
 
 Pour démarrer Odoo, lancez le script suivant [startodoo.sh](/inf1070/20201-tp2/-/blob/master/startodoo.sh).
