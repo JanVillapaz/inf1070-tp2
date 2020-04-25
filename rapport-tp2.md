@@ -158,7 +158,10 @@ $ sudo apt list --installed > paquetsPostgreSql.txt
 
 ### [](#34-probl%C3%A8mes-rencontr%C3%A9s)3.4 Problèmes rencontrés
 
-
+Le message d'erreur suivant apparaît après avoir entré la commande:
+```
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+```
 
 ## [](#4-odoo-installation-et-configuration)4. Odoo - Installation et configuration
 
