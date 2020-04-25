@@ -221,11 +221,11 @@ $ sudo chmod  -R  755 /var/odoo
 - Extrait de la section du fichier `odoo.conf` modifiée :
 
 ```
--   **ddons_path**: addons
--   **data_dir**: /var/odoo
--   **database**: odoo
--   **db_user**: odoo
--   **db_password**: passodoo
+   **ddons_path**: addons
+   **data_dir**: /var/odoo
+   **database**: odoo
+   **db_user**: odoo
+   **db_password**: passodoo
 ```
 
 -   Copiez le fichier `odoo.conf` das le dossier d'installation de odoo.
