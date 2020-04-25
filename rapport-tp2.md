@@ -48,7 +48,7 @@ $ tail -n +2 paquetsInit.txt | wc -l
 
 ### [](#12-liste-des-paquets-install%C3%A9s)1.2 Liste des paquets installés
 
-Voir le fichier [paquetsInit.txt](/inf1070/20201-tp2/-/blob/master/paquetsInit.txt).
+Voir le fichier [paquetsInit.txt](paquetsInit.txt).
 
 ### [](#12-probl%C3%A8mes-rencontr%C3%A9s)1.2 Problèmes rencontrés
 
@@ -96,7 +96,7 @@ pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
 $ apt list --installed > paquetsPython.txt
 ```
 
-Voir le fichier [paquetsPython.txt](/inf1070/20201-tp2/-/blob/master/paquetsPython.txt).
+Voir le fichier [paquetsPython.txt](paquetsPython.txt).
 
 
 ### [](#23-probl%C3%A8mes-rencontr%C3%A9s)2.3 Problèmes rencontrés
@@ -215,7 +215,7 @@ $ tail -n +2 paquetsPrerequis.txt | wc -l
 680
 ```
 
-Voir le fichier [paquetsPrerequis.txt](/inf1070/20201-tp2/-/blob/master/paquetsPrerequis.txt).
+Voir le fichier [paquetsPrerequis.txt](paquetsPrerequis.txt).
 
 ### 4.2 Configuration et démarrage
 
@@ -262,7 +262,7 @@ $ chmod 755 startodoo.sh
 
 #### [](#421-script-shell-de-d%C3%A9marrage-de-odoo)4.2.1 Script shell de démarrage de Odoo
 
-Pour démarrer Odoo, lancez le script suivant [startodoo.sh](/inf1070/20201-tp2/-/blob/master/startodoo.sh).
+Pour démarrer Odoo, lancez le script suivant [startodoo.sh](startodoo.sh).
 
 ```
 $ sudo python3 odoo-bin --addons-path=addons --data-dir=/var/odoo -d odoo -r odoo -w passodoo \
@@ -316,10 +316,17 @@ passe admin.
 
 
 ## [](#6-sauvegarde-et-restauration)6. Sauvegarde et restauration
+- Capture d'ecran:
+
+![Accueil et article COVID-19](acceuil.png)
+![Evenement](evenement.png)
+![Page d'installation des applications](app.png)
+![Page des rapports sur odoo](rapport.png)
+
 
 ### [](#61-base-de-donn%C3%A9es)6.1 Base de données
 
-Voir le fichier [odoo_bd.bak](/inf1070/20201-tp2/-/blob/master/odoo_bd.bak).
+Voir le fichier [odoo_bd.bak](odoo_bd.bak).
 
 - Après avoir rédigé tous les rapports, et effectué toutes les configurations, effectuez
 une sauvegarde (backup) de la base de données.
@@ -333,6 +340,6 @@ $ sudo -u postgres pg_dump odoo > odoo_bd.bak
 - En utilisant la commande tar (au au besoin gzip), créez un fichier odoo.tar.gz
 - du répertoire des données /var/odoo
 
-Voir le fichier [odoo.tar.gz](/inf1070/20201-tp2/-/blob/master/odoo.tar.gz).
+Voir le fichier [odoo.tar.gz](odoo.tar.gz).
 
-Voir le fichier [odoo.conf](/inf1070/20201-tp2/-/blob/master/odoo.conf).
+Voir le fichier [odoo.conf](odoo.conf).
